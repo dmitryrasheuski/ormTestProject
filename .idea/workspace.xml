@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce3a8771-1707-44e4-9a2a-de3c45a6f0c5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="testProject" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a4M7o5FH9Jk6O2d2GQSgdq34Rg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="protected" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/rash/testProject" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="rash.testProject.query.sql.newQuery" />
+      <recent name="rash.testProject.annotationHandler.joinTableAnnotationHandler" />
+      <recent name="rash.testProject.annotationHandler.joinColumnsAnnotationHandler" />
+      <recent name="rash.testProject.annotationHandler.joinColumnAnnotationHandler" />
+      <recent name="rash.testProject.annotationHandler.columnAnnotationHandler" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AppTest">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testProject" />
+      <option name="PACKAGE_NAME" value="rash.testProject" />
+      <option name="MAIN_CLASS_NAME" value="rash.testProject.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testProject" />
+      <option name="PACKAGE_NAME" value="rash.testProject" />
+      <option name="MAIN_CLASS_NAME" value="rash.testProject.AppTest" />
+      <option name="METHOD_NAME" value="name" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.tes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testProject" />
+      <option name="PACKAGE_NAME" value="rash.testProject" />
+      <option name="MAIN_CLASS_NAME" value="rash.testProject.AppTest" />
+      <option name="METHOD_NAME" value="tes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testProject" />
+      <option name="PACKAGE_NAME" value="rash.testProject" />
+      <option name="MAIN_CLASS_NAME" value="rash.testProject.AppTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testProject" />
+      <option name="PACKAGE_NAME" value="rash.testProject" />
+      <option name="MAIN_CLASS_NAME" value="rash.testProject.AppTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.name" />
+        <item itemvalue="JUnit.AppTest.test" />
+        <item itemvalue="JUnit.AppTest.test1" />
+        <item itemvalue="JUnit.AppTest.tes" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:test@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:test@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@3f8f112e" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce3a8771-1707-44e4-9a2a-de3c45a6f0c5" name="Default Changelist" comment="" />
+      <created>1585990247390</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585990247390</updated>
+      <workItem from="1585990253279" duration="7971000" />
+      <workItem from="1586105454285" duration="14843000" />
+      <workItem from="1586151272676" duration="45190000" />
+      <workItem from="1586254703181" duration="22088000" />
+      <workItem from="1586333759205" duration="63953000" />
+      <workItem from="1586422450724" duration="26301000" />
+      <workItem from="1586504478802" duration="11263000" />
+      <workItem from="1586517068825" duration="11822000" />
+      <workItem from="1586593898477" duration="3169000" />
+      <workItem from="1586760899752" duration="32601000" />
+      <workItem from="1586928685618" duration="3129000" />
+      <workItem from="1586933111203" duration="32668000" />
+      <workItem from="1587018443151" duration="33306000" />
+      <workItem from="1587062158878" duration="1860000" />
+      <workItem from="1587098085905" duration="15454000" />
+      <workItem from="1587375295462" duration="547000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="216" width="800" height="680" key="#SQL_Dialects" timestamp="1585992096581">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="555" y="216" width="800" height="680" key="#SQL_Dialects/0.30.1920.1050@0.30.1920.1050" timestamp="1585992096581" />
+    <state x="555" y="216" width="800" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587115348991">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="555" y="216" width="800" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1587115348991" />
+    <state x="703" y="360" width="503" height="392" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586119365413">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="703" y="360" width="503" height="392" key="#com.intellij.fileTypes.FileTypeChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1586119365413" />
+    <state x="768" y="267" width="374" height="578" key="#com.intellij.ide.util.MemberChooser" timestamp="1587100760097">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="768" y="267" width="374" height="578" key="#com.intellij.ide.util.MemberChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1587100760097" />
+    <state x="572" y="483" width="924" height="147" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587052557299">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="572" y="483" width="924" height="147" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1587052557299" />
+    <state x="665" y="132" width="580" height="848" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587060092526">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="665" y="132" width="580" height="848" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1587060092526" />
+    <state x="693" y="304" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587063659309">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="693" y="304" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1587063659309" />
+    <state width="432" height="466" key="DebuggerActiveHint" timestamp="1586274543307">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="432" height="466" key="DebuggerActiveHint/0.30.1920.1050@0.30.1920.1050" timestamp="1586274543307" />
+    <state x="743" y="313" width="424" height="487" key="FileChooserDialogImpl" timestamp="1587140186790">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="743" y="313" width="424" height="487" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1587140186790" />
+    <state width="1874" height="550" key="GridCell.Tab.0.bottom" timestamp="1587375842392">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1874" height="550" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1587375842392" />
+    <state width="1874" height="550" key="GridCell.Tab.0.center" timestamp="1587375842391">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1874" height="550" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1587375842391" />
+    <state width="1874" height="550" key="GridCell.Tab.0.left" timestamp="1587375842390">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1874" height="550" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1587375842390" />
+    <state width="1874" height="550" key="GridCell.Tab.0.right" timestamp="1587375842391">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1874" height="550" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1587375842391" />
+    <state width="1874" height="446" key="GridCell.Tab.1.bottom" timestamp="1587141047511">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1874" height="446" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1587141047511" />
+    <state width="1874" height="446" key="GridCell.Tab.1.center" timestamp="1587141047509">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1874" height="446" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1587141047509" />
+    <state width="1874" height="446" key="GridCell.Tab.1.left" timestamp="1587141047508">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1874" height="446" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1587141047508" />
+    <state width="1874" height="446" key="GridCell.Tab.1.right" timestamp="1587141047509">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1874" height="446" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1587141047509" />
+    <state x="493" y="213" width="924" height="687" key="Maven.ArtifactSearchDialog" timestamp="1586119782554">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="493" y="213" width="924" height="687" key="Maven.ArtifactSearchDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1586119782554" />
+    <state x="862" y="452" width="319" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1585995512725">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="862" y="452" width="319" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.30.1920.1050@0.30.1920.1050" timestamp="1585995512725" />
+    <state x="672" y="197" width="566" height="718" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1587106162196">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="672" y="197" width="566" height="718" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1587106162196" />
+    <state x="653" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1587375296238">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="653" y="382" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1587375296238" />
+    <state x="693" y="311" width="524" height="490" key="extract.method.dialog" timestamp="1586366276415">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="693" y="311" width="524" height="490" key="extract.method.dialog/0.30.1920.1050@0.30.1920.1050" timestamp="1586366276415" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1586511221418">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="715" height="284" key="javadoc.popup.new" timestamp="1587100978274">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="715" height="284" key="javadoc.popup.new/0.30.1920.1050@0.30.1920.1050" timestamp="1587100978274" />
+    <state width="600" height="424" key="javadoc.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1586511221418" />
+    <state x="344" y="253" width="1222" height="606" key="new project wizard" timestamp="1586280666614">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="344" y="253" width="1222" height="606" key="new project wizard/0.30.1920.1050@0.30.1920.1050" timestamp="1586280666614" />
+    <state x="666" y="175" width="577" height="762" key="refactoring.ChangeSignatureDialog" timestamp="1586215370880">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="666" y="175" width="577" height="762" key="refactoring.ChangeSignatureDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1586215370880" />
+    <state x="624" y="254" key="run.anything.popup" timestamp="1586520194573">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="624" y="254" key="run.anything.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1586520194573" />
+    <state x="623" y="261" width="672" height="678" key="search.everywhere.popup" timestamp="1587140176672">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="623" y="261" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1587140176672" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/rash/testProject/query/sql/getQuery/GetQueryContextImpl.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

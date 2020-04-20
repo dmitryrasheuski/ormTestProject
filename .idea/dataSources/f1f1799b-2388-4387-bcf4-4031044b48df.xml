@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="test@localhost">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.17">
+    <root id="1">
+      <ServerVersion>10.12</ServerVersion>
+      <StartupTime>1587098023</StartupTime>
+    </root>
+    <database id="2" parent="1" name="postgres">
+      <ObjectId>13190</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="3" parent="1" name="rest">
+      <ObjectId>16524</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="4" parent="1" name="test">
+      <ObjectId>16819</ObjectId>
+      <Owner>test</Owner>
+      <IntrospectionStateNumber>826</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Relations>sequence|table|16884|16886|1
+sequence|table|16894|16896|1
+sequence|table|16909|16911|1
+</Relations>
+    </database>
+    <role id="5" parent="1" name="dmitry">
+      <ObjectId>16523</ObjectId>
+      <SuperRole>1</SuperRole>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+    </role>
+    <role id="6" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+    </role>
+    <role id="7" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+    </role>
+    <role id="8" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+    </role>
+    <role id="9" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+    </role>
+    <role id="10" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+    </role>
+    <role id="11" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <BypassRls>1</BypassRls>
+    </role>
+    <role id="12" parent="1" name="test">
+      <ObjectId>16818</ObjectId>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+    </role>
+    <schema id="13" parent="4" name="information_schema">
+      <ObjectId>12900</ObjectId>
+      <StateNumber>353</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="14" parent="4" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <StateNumber>350</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="15" parent="4" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <StateNumber>351</StateNumber>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>827</IntrospectionStateNumber>
+      <Current>1</Current>
+    </schema>
+    <access-method id="16" parent="4" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="17" parent="4" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="18" parent="4" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="19" parent="4" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="20" parent="4" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="21" parent="4" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <extension id="22" parent="4" name="plpgsql">
+      <ObjectId>13176</ObjectId>
+      <Comment>PL/pgSQL procedural language</Comment>
+      <StateNumber>505</StateNumber>
+      <Version>1.0</Version>
+      <SchemaName>pg_catalog</SchemaName>
+      <SchemaId>11</SchemaId>
+    </extension>
+    <sequence id="23" parent="15" name="contact_item_id_seq">
+      <ObjectId>16884</ObjectId>
+      <StateNumber>812</StateNumber>
+      <Owner>test</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <sequence id="24" parent="15" name="person_id_seq">
+      <ObjectId>16909</ObjectId>
+      <StateNumber>815</StateNumber>
+      <Owner>test</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="25" parent="15" name="technology_item_id_seq">
+      <ObjectId>16894</ObjectId>
+      <StateNumber>813</StateNumber>
+      <Owner>test</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <table id="26" parent="15" name="contact_item">
+      <ObjectId>16886</ObjectId>
+      <Owner>test</Owner>
+      <StateNumber>816</StateNumber>
+    </table>
+    <table id="27" parent="15" name="gender">
+      <ObjectId>16904</ObjectId>
+      <Owner>test</Owner>
+      <StateNumber>815</StateNumber>
+    </table>
+    <table id="28" parent="15" name="person">
+      <ObjectId>16911</ObjectId>
+      <Owner>test</Owner>
+      <StateNumber>817</StateNumber>
+    </table>
+    <table id="29" parent="15" name="persons_contacts">
+      <ObjectId>16922</ObjectId>
+      <Owner>test</Owner>
+      <StateNumber>816</StateNumber>
+    </table>
+    <table id="30" parent="15" name="persons_technologies">
+      <ObjectId>16935</ObjectId>
+      <Owner>test</Owner>
+      <StateNumber>817</StateNumber>
+    </table>
+    <table id="31" parent="15" name="technology_item">
+      <ObjectId>16896</ObjectId>
+      <Owner>test</Owner>
+      <StateNumber>817</StateNumber>
+    </table>
+    <column id="32" parent="26" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>812</StateNumber>
+      <DefaultExpression>nextval(&apos;contact_item_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="33" parent="26" name="title">
+      <Position>2</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>812</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="34" parent="26" name="contact_item_pkey">
+      <ObjectId>16890</ObjectId>
+      <StateNumber>812</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <index id="35" parent="26" name="contact_item_title_key">
+      <ObjectId>16892</ObjectId>
+      <StateNumber>812</StateNumber>
+      <ColNames>title</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="36" parent="26" name="contact_item_pkey">
+      <ObjectId>16891</ObjectId>
+      <StateNumber>812</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>contact_item_pkey</UnderlyingIndexName>
+    </key>
+    <key id="37" parent="26" name="contact_item_title_key">
+      <ObjectId>16893</ObjectId>
+      <StateNumber>812</StateNumber>
+      <ColNames>title</ColNames>
+      <UnderlyingIndexName>contact_item_title_key</UnderlyingIndexName>
+    </key>
+    <column id="38" parent="27" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>814</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="39" parent="27" name="title">
+      <Position>2</Position>
+      <DataType>varchar(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>814</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="40" parent="27" name="gender_pkey">
+      <ObjectId>16907</ObjectId>
+      <StateNumber>814</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="41" parent="27" name="gender_pkey">
+      <ObjectId>16908</ObjectId>
+      <StateNumber>814</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>gender_pkey</UnderlyingIndexName>
+    </key>
+    <column id="42" parent="28" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>815</StateNumber>
+      <DefaultExpression>nextval(&apos;person_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="43" parent="28" name="first_name">
+      <Position>2</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>815</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="44" parent="28" name="second_name">
+      <Position>3</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>815</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="45" parent="28" name="patronymic">
+      <Position>4</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>815</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="46" parent="28" name="birthday">
+      <Position>5</Position>
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>815</StateNumber>
+      <TypeId>1082</TypeId>
+    </column>
+    <column id="47" parent="28" name="gender">
+      <Position>6</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>815</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="48" parent="28" name="person_pkey">
+      <ObjectId>16915</ObjectId>
+      <StateNumber>815</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="49" parent="28" name="person_pkey">
+      <ObjectId>16916</ObjectId>
+      <StateNumber>815</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>person_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="50" parent="28" name="person_gender_fkey">
+      <ObjectId>16917</ObjectId>
+      <StateNumber>815</StateNumber>
+      <ColNames>gender</ColNames>
+      <RefTableId>16904</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>gender</RefTableName>
+      <RefKeyName>gender_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="51" parent="29" name="person_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>816</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="52" parent="29" name="contact_item_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>816</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="53" parent="29" name="value">
+      <Position>3</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>816</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <foreign-key id="54" parent="29" name="persons_contacts_person_id_fkey">
+      <ObjectId>16925</ObjectId>
+      <StateNumber>816</StateNumber>
+      <ColNames>person_id</ColNames>
+      <RefTableId>16911</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>person</RefTableName>
+      <RefKeyName>person_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="55" parent="29" name="persons_contacts_contact_item_id_fkey">
+      <ObjectId>16930</ObjectId>
+      <StateNumber>816</StateNumber>
+      <ColNames>contact_item_id</ColNames>
+      <RefTableId>16886</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>contact_item</RefTableName>
+      <RefKeyName>contact_item_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="56" parent="30" name="person_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>817</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="57" parent="30" name="technology_item_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>817</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="58" parent="30" name="persons_technologies_person_id_fkey">
+      <ObjectId>16938</ObjectId>
+      <StateNumber>817</StateNumber>
+      <ColNames>person_id</ColNames>
+      <RefTableId>16911</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>person</RefTableName>
+      <RefKeyName>person_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="59" parent="30" name="persons_technologies_technology_item_id_fkey">
+      <ObjectId>16943</ObjectId>
+      <StateNumber>817</StateNumber>
+      <ColNames>technology_item_id</ColNames>
+      <RefTableId>16896</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>technology_item</RefTableName>
+      <RefKeyName>technology_item_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="60" parent="31" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>813</StateNumber>
+      <DefaultExpression>nextval(&apos;technology_item_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="61" parent="31" name="title">
+      <Position>2</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>813</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="62" parent="31" name="technology_item_pkey">
+      <ObjectId>16900</ObjectId>
+      <StateNumber>813</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <index id="63" parent="31" name="technology_item_title_key">
+      <ObjectId>16902</ObjectId>
+      <StateNumber>813</StateNumber>
+      <ColNames>title</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="64" parent="31" name="technology_item_pkey">
+      <ObjectId>16901</ObjectId>
+      <StateNumber>813</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>technology_item_pkey</UnderlyingIndexName>
+    </key>
+    <key id="65" parent="31" name="technology_item_title_key">
+      <ObjectId>16903</ObjectId>
+      <StateNumber>813</StateNumber>
+      <ColNames>title</ColNames>
+      <UnderlyingIndexName>technology_item_title_key</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>
